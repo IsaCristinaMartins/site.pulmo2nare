@@ -1,0 +1,28 @@
+body{
+	background: #3c948c;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 120px;
+
+}
+
+div {
+
+	text-align: center;
+}
+nav a {
+	text-transform: uppercase;
+	color:#f5cc4d;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	position: relative;
+	top: 15px;
+
+}
+.tipos {
+	position: relative;
+	margin: 0 auto
+}
