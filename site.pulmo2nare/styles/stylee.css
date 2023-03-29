@@ -1,0 +1,149 @@
+body {
+  background: #3c948c;
+}
+
+.ftlogo {
+  text-align: center;
+  margin: 30 auto;
+}
+
+.titulo-centralizado {
+  background-position: top;
+  text-align: center;
+  font-size: 70px;
+  position: static;
+  top: 355px;
+  right: 350px;
+}
+
+strong {
+  color: #f5cc4d;
+  text-align: center;
+  position: relative;
+  color: #f5cc4d;
+  text-shadow: -1px -1px 0px #000, -2px 2px 0px #000, 1px -1px 0px #000,
+    1px 0px 0px #000;
+}
+
+em {
+  font-size: 20px;
+}
+
+/* Botões de cabeçalho*/
+.first {
+  border-color: #f5cc4d;
+  color: #040101;
+  box-shadow: 0 0 100px 100px #29a69c inset, 0 0 0 0 #74b6b0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-size: 40px;
+}
+.first:hover {
+  box-shadow: 0 0 10px 0 #3c948c inset, 0 0 10px 4px #3c948c;
+}
+.second {
+  border-color: #f5cc4d;
+  color: #040101;
+  box-shadow: 0 0 100px 100px #29a69c inset, 0 0 0 0 #74b6b0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-size: 40px;
+}
+.second:hover {
+  box-shadow: 0 0 10px 0 #3c948c inset, 0 0 10px 4px #3c948c;
+}
+
+.third {
+  border-color: #f5cc4d;
+  color: #040101;
+  box-shadow: 0 0 100px 100px #29a69c inset, 0 0 0 0 #74b6b0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-size: 40px;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3c948c inset, 0 0 10px 4px #3c948c;
+}
+.fourth {
+  border-color: #f5cc4d;
+  color: #040101;
+  box-shadow: 0 0 100px 100px #29a69c inset, 0 0 0 0 #13766e;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  font-size: 40px;
+}
+.fourth:hover {
+  box-shadow: 0 0 10px 0 #042926 inset, 0 0 10px 4px #3c948c;
+}
+
+.botoes-alinhados {
+  text-align: center;
+  position: relative;
+  word-spacing: 10em;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 100px;
+  position: center;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 35px;
+  margin: 0;
+  word-spacing: 1em;
+  text-indent: 1em;
+}
+
+p {
+  text-align: justify;
+  font-size: 30px;
+  top: 650px;
+  margin: 0 0 0 30px;
+  max-width: 800px;
+}
+.container {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  margin-left: center;
+  margin-right: absolute;
+  text-align: center;
+  background-color: #74b6b0;
+  flex-direction: row;    /*para centralizar um container*/
+  justify-content: center;   /*para centralizar um container*/  
+}
+
+.subescrito {
+  font-size: 16px;
+}
+
+#missao {
+  font-size: 60px;
+  top: 100px;
+  font-size: 90px;
+}
+
+.beneficios {
+  font-size: 80px;
+  top: 80px;
+  color: #f5cc4d;
+  text-shadow: -1px -1px 0px #000, -2px 2px 0px #000, 1px -1px 0px #000,
+    1px 0px 0px #000;
+  display: flex;
+  margin-top: 100px;
+ 
+
+}
+
+.itens {  /*itens sobre o atendimento */
+  font-size: 30px;
+  top: 30px;
+}
+
+.ftatendimento {
+  justify-content: right;
+  text-indent: 60em;
+  right: 100%;
+}
