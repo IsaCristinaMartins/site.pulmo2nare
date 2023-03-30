@@ -86,7 +86,7 @@ em {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50vh;
+  height: 80vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -101,6 +101,7 @@ em {
   padding-bottom: 50px;
   opacity: 0.8;
   color: #fff;
+  
 }
 
 .card-header::after {
@@ -126,7 +127,7 @@ em {
 }
 
 .card-content-area input {
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 0 5px;
   background-color: transparent;
   border: none;
@@ -147,6 +148,8 @@ em {
   border: none;
   color: #000000;
   margin: 10px 0;
+  margin-left: 900px;
+  margin-top: 1px;
 }
 
 .new-card {
@@ -166,5 +169,5 @@ em {
   text-decoration: none;
   text-align: center;
   position: relative;
-  top: 100;
+  top: 10;
 }
