@@ -32,7 +32,8 @@
     <div id="login">
       <form class="card">
           <div class="card-header">
-              <h2>Login</h2>
+              <h2>Login</h2>      
+                
           </div>
           <div class="card-content">
               <div class="card-content-area">
@@ -44,13 +45,14 @@
                   <input type="password" id="password" autocomplete="off">
               </div>
           </div>
-        </div>
+        </div>    
         <div class="new-card">
-        <input type="submit" value="login" class="submit">
-         <a href="#" class="recuperar_senha">Novo Cadastro</a>
+        <input type="submit" value="Login" href="{{ url_for('cadastro_clientes')}}" class="submit">
+        <a href="{{ url_for('cadastro_clientes')}}" class="recuperar_senha">Novo Cadastro</a>
         </div>
+      
         <div class="esqueceu-card">          
-          <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+          <a  class="recuperar_senha">Esqueceu a senha?</a>
         </div>
        
       </form>
